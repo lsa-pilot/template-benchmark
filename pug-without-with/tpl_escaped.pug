@@ -3,9 +3,9 @@ html
 		title= self.title
 	body
 		p= self.text
-		- if (self.projects.length)
-			- each project in self.projects
+		if (self.projects.length)
+			each project in self.projects
 				a(href="#{project.url}")= project.name
 				p= project.description
-		- else
+		else
 			No projects

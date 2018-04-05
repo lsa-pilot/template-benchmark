@@ -1,24 +1,14 @@
 {
-	"name" : "template-benchmark",
-	"version" : "0.1.0",
-	"author" : "Vadim M. Baryshev <vadimbaryshev@gmail.com>",
+	"name": "template-benchmark",
+	"version": "0.1.0",
+	"author": "Vadim M. Baryshev <vadimbaryshev@gmail.com>",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/baryshev/template-benchmark.git"
 	},
 	"dependencies": {
-		"ect": "0.4.7",
-		"ejs": "0.8.3",
-		"eco": "1.1.0-rc-3",
-		"swig": "0.13.5",
-		"jade": "0.28.1",
-		"hogan.js": "2.0.0",
-		"dustjs-linkedin": "1.2.1",
-		"fest": "0.5.4",
-		"dot": "1.0.1",
-		"handlebars": "1.0.9",
-		"coffeekup": "0.3.1",
-		"underscore": "1.4.4",
-		"gaikan": "2.0.0-rc1"
+		"pug": "2.0.3",
+		"handlebars": "4.0.11",
+		"ejs": "2.5.8"
 	}
 }
